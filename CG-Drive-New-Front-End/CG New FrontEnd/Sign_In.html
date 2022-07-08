@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="/css/Sign In.css">
+    <link rel="icon" href="img/CG.ico" type="image/icon type">
+    <title>Sign In || CG Drive</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="signup-form">
+                    <form action="" class="mt-5 border p-4 bg-light shadow">
+                        <div class="row">
+                            <div class="mb-3 col-md-6"><a href="/landing.html"><img src="/img/BrandLogo.png" class="brandLogo" alt="" srcset=""></a></div>
+                            <h4 class="mb-5 text-secondary mb-3 col-md-6">Sign In To Your Account</h4>
+                        </div>
+                        <div class="row">
+                            <div class="mb-3 col-md-12">
+                                <label>Username<span class="text-danger">*</span></label>
+                                <input type="text" name="password" class="form-control" id="username" placeholder="Enter Your Username">
+                            </div>
+
+                            <div class="mb-3 col-md-12">
+                                <label>Password<span class="text-danger">*</span></label>
+                                <input type="password" name="password" class="form-control" id="password" placeholder="Enter Password">
+                            </div>
+                            <div class="col-md-12">
+                               <button type="button" class="btn btn-primary float-end" onclick="checkUser()">Sign In</button>
+                            </div>
+                        </div>
+                    </form>
+                    <p class="text-center mt-3 text-secondary">If you do not have an account, Please <a href="/registration.html" class="red"><strong>Register Yourself</strong></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/javascripts/sign-in.js"></script>
+</body>
+</html>

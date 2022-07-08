@@ -1,0 +1,39 @@
+.cstm,
+.cstm:active,
+.cstm:visited {
+    background-color: darkblue !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.cstm:hover {
+    background-color: red !important;
+}
+
+.folder {
+    height: 4rem !important;
+}
+
+#mainn {
+    position: relative;
+}
+
+.abc {
+    height: 13rem;
+    width: 10rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.abc2 {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}

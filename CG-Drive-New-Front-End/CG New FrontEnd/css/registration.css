@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+
+body {
+    font-family: "Sora", sans-serif;
+    line-height: 1.7;
+    color: var(--body);
+    /* overflow: hidden; */
+}
+
+a {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+.btn {
+    padding: 14px 18px;
+    border-width: 2px;
+    border-radius: 0;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: darkblue !important;
+    border-color: darkblue !important;
+    border-radius: 5px !important;
+    box-shadow: none !important;
+}
+
+.custom-btn{
+    border-radius: 5px !important;
+    box-shadow: none !important;
+}
+
+.btn-primary:hover{
+    background-color: red !important;
+    border-color: red !important;
+}
+.brandLogo{
+    height: 60% !important;
+}
+
+.red:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
